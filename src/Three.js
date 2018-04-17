@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as THREE from 'three';
-import OBJLoader from '../loaders/OBJLoader';
-import MTLLoader from '../loaders/MTLLoader';
+import OBJLoader from './loaders/OBJLoader';
+import MTLLoader from './loaders/MTLLoader';
 
 // Extend THREE
 OBJLoader(THREE);
